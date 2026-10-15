@@ -1,0 +1,20 @@
+{
+  "domain": "https://www.vinted.fr",
+  "interval_seconds": 90,
+  "telegram": { "bot_token": "", "chat_id": "" },
+  "discord_webhook": "",
+  "sell_through_factor": 0.85,
+  "shipping_cost": 3.0,
+  "min_margin": 8,
+  "max_ratio": 0.6,
+  "min_comparables": 8,
+  "conditions_ok": ["neuf", "très bon état"],
+  "blacklist_words": ["fake", "replica", "réplique", "inspiré", "taché", "troué", "défaut", "abîmé"],
+  "brands": ["Nike", "Under Armour", "Ralph Lauren", "Essentials", "Fear of God"],
+  "searches": [
+    { "text": "polo ralph lauren", "max_price": 40, "brands": ["Ralph Lauren"] },
+    { "text": "nike running", "max_price": 40, "brands": ["Nike"] },
+    { "text": "under armour", "max_price": 30, "brands": ["Under Armour"] },
+    { "text": "essentials fear of god", "max_price": 80, "brands": ["Essentials", "Fear of God"] }
+  ]
+}
